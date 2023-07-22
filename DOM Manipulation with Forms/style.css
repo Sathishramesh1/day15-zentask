@@ -1,0 +1,61 @@
+*{
+    color: black;
+}
+
+form{
+    border: 1px solid black;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    background-color:skyblue;
+    
+}
+
+table{
+
+    margin-top: 20px;
+    margin: 20px;
+    
+}
+thead{
+    background-color: black;
+    
+}
+th{
+    color: white;
+   margin: auto;
+   justify-content: space-evenly;
+   border: 2px solid greenyellow!important
+    
+}
+
+td{    
+    border: 2px solid greenyellow!important;
+}
+
+label{
+    font-weight: bold;
+}
+#must{
+    font-weight:normal;
+    color:red;
+    
+}
+body{
+    overflow-x: hidden;
+}
+.d-flex{
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+
+}
+#first-name,#last-name,#address,#pincode,#state,#country{
+    width: 50%!important;
+}
+@media (max-width:600px) {
+    #first-name,#last-name,#address,#pincode,#state,#country{
+        width: 100%!important;
+        font-size: 20px;
+    }
+    
+}
